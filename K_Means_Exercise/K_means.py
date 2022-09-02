@@ -8,8 +8,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.cluster import KMeans
-from sklearn.model_selection import GridSearchCV
-from sklearn.metrics import silhouette_score
 from sklearn.preprocessing import StandardScaler
 
 # Preparing the data
