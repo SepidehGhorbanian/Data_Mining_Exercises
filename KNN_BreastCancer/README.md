@@ -1,3 +1,5 @@
+Predicting whether a patiant has breast cancer or not
+
 Using the KNN algorithm from Classification algorithms (Supervised)
 
 The code is in Python and it is using the Scikit-learn (Sklearn) library
