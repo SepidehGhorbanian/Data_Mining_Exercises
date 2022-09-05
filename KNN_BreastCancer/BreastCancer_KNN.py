@@ -49,7 +49,7 @@ knn2.fit(x_trn , y_trn)
 acc2 = knn2.score(x_tst , y_tst)
 print(acc2)
 
-#testing 
+#evaluating 
 diagnosis = ['bengin' , 'malignant']
 plot_confusion_matrix(knn2 , x_tst , y_tst, display_labels = diagnosis  , normalize ='true')
 print(knn2.score(x_tst,y_tst))
