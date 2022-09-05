@@ -24,8 +24,8 @@ data.dropna(inplace = True)
 print(data.head())
 
 
-x_trn , x_tst , y_trn , y_tst = train_test_split(data.filter(regex = '\d') , data.y , test_size= 0.30 , random_state = 1)
-# We filter the data with regex = '\d' to get the data where the string contains digits
+x_trn , x_tst , y_trn , y_tst = train_test_split(data.filter(regex = '\d') , data.y , test_size= 0.3 , random_state = 1 , shuffle = True)
+# We filter the data with regex = '\d' to get the data where the string contains digits (x0 to x8)
 
 diagnosis = ['bengin' , 'malignant']
 #fitting
