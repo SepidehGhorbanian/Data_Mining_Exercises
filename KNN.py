@@ -15,12 +15,14 @@ from sklearn.metrics import plot_confusion_matrix
 
 data = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data')
 #preparing the data
+print(data.describe())
+print(data.info())
 data.drop('1000025' , axis = 1 ,inplace = True)
 data.columns = ['x' + str(i) for i in range (0,len(data.columns) - 1)] + ['y']
 data['x5']=pd.to_numeric(data['x5'],errors='coerce')
 data.dropna(inplace = True)
-# print(data.head())
-# print(data.info())
+print(data.head())
+
 
 x_trn , x_tst , y_trn , y_tst = train_test_split(data.filter(regex = '\d') , data.y , test_size= 0.30 , random_state = 1)
 
