@@ -25,15 +25,8 @@ print(data.head())
 
 
 x_trn , x_tst , y_trn , y_tst = train_test_split(data.filter(regex = '\d') , data.y , test_size= 0.30 , random_state = 1)
+# We filter the data with regex = '\d' to get the data where the string contains digits
 
-#creating the training dataset
-trn = x_trn
-trn['y'] = y_trn
-x_trn = trn.filter(regex = '\d')
-# #creating the testing dataset
-tst = x_tst
-tst['y'] = y_tst
-x_tst = tst.filter(regex = '\d')
 diagnosis = ['bengin' , 'malignant']
 #fitting
 knn = KNeighborsClassifier(n_neighbors=5)
