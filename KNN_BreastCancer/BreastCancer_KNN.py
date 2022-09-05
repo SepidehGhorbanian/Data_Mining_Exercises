@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Sep  5 10:05:33 2022
 
+"""
 @author: UNISEPP
+
 """
 # KNN Classification on breast cancer dataset
 
