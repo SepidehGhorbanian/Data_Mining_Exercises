@@ -2,8 +2,7 @@
 
 @author: UNISEPP
 """
-# Time series exercise
-# Decomposition on air passengers dataset 
+# Time series Decomposition on air passengers dataset 
 
 import pandas as pd
 import matplotlib.pyplot as plt
