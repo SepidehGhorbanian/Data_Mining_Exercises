@@ -30,4 +30,5 @@ plt.rcParams['figure.figsize'] = [7,8]
 sd1 = seasonal_decompose(df , model = 'additive' , period=12)
 print(sd1.plot())
 sd2 = seasonal_decompose(df , model = 'multiplicative')
-print(sd2.plot)
+print(sd2.plot())
+plt.show()
