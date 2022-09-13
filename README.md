@@ -1,1 +1,1 @@
-# Data_Mining_Exercises
+# Data_Mining_Projects
