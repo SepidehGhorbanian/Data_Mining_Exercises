@@ -27,7 +27,7 @@ y = data.y
 data.drop('y', axis =1 , inplace = True)
 print(data.head())
 
-# Using dendogram
+# Using dendrogram
 hc1 = linkage(data ,method = 'ward')
 fig = plt.figure()
 fig1 = dendrogram(hc1 , leaf_label_func=lambda id : y.values[id])
