@@ -1,23 +1,29 @@
-Predicting whether a patiant has breast cancer or not
+# Predicting Breast Cancer
 
-Using the KNN algorithm from Classification algorithms (Supervised)
 
-The code is in Python and it is using the Scikit-learn (Sklearn) library
+## Project Intro
+The purpose of this project is to predict whether a patient has breast cancer or not, using KNN algorithm from the classification algorithms.
 
-Dataset: The Breast Cancer Wisconsin Dataset from https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/
+### Methods Used
+* Data Preprocessing
+* Machine Learning
+* Predictive Modeling
 
-Preparing the data: After importing the dataset and understanding the features, first we drop the id column, then we rename the columns to 'xi' and the last column to 'y' which is the labels.
-after that we change the type of column x5 from object to numeric and lastly we drop the rows that have NULL values.
-We split the data into training and testing
+### Technologies
+* [Python](https://www.python.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Scikit-learn](https://scikit-learn.org/stable/)
 
-Implementing the algorithm: We fit the 'KNeighborsClassifier' to the training dataset and then we can show the predicted values for the testing dataset
-Then we calculate the accuracy of the algorithm with the chosen 'k' by the use of 'score' function
+## Project Description
+Using the Breast Cancer Wisconsin Dataset, we can create a classifier that can help diagnose patients and predict the likelihood of a breast cancer.
+K_nearest neighbors algorithm (KNN) is one of the simplest forms of classification. KNN classifies the new data points based on the similarity measure of the earlier stored data points.
 
-Optimizing: We can use the 'Gridsearch' method to find the best number for k and then use it to fit the data and have the best knn algorithm
-Then we calcaulate the accuracy and we can see the improvement
 
-Confusion Matrix: At the end we can use the 'Confusion Matrix' to visualize the performance of the best knn with the actual labels that we had in the dataset.
+## Getting Started
 
+1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
+2. Dataset is from the UCI website [here](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/)
+3. Data processing and transformation scripts are being kept [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/KNN_BreastCancer/BreastCancer_KNN.py)
 
 
 
