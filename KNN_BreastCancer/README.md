@@ -8,9 +8,10 @@ The purpose of this project is to predict whether a patient has breast cancer or
 * Data Preprocessing
 * Machine Learning
 * Predictive Modeling
+* Performance Evaluation
 
 ### Technologies
-* [Python](https://www.python.org/)
+* [Python](https://www.python.org/) version 3.6+
 * [Pandas](https://pandas.pydata.org/)
 * [Scikit-learn](https://scikit-learn.org/stable/)
 
