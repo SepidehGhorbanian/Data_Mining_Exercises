@@ -1,18 +1,31 @@
- Using the K_Means algorithm from clustering algorithms (unsupervised)
+# Clustering Iris Dataset
 
-The code is in Python and it is using the Scikit-learn (Sklearn) library
 
-Dataset: The iris dataset
+## Project Intro
+The purpose of this project is to cluster the flowers in the Iris dataset using the K_Means algorithm from the clustering algorithms.
 
-Step 1: Importing and understanding the dataset The data includes the following features:sepal.length, sepal.width, petal.length, petal.width , variety (the label)
+### Methods Used
+* Data Preparation
+* Machine Learning
+* Visualization
 
-Step 2: Eliminating the label column ('vareity') and saving it in another list to use later for the name of the clusters
+### Technologies
+* [Python](https://www.python.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Matplotlib](https://matplotlib.org/)
+* [Scikit-learn](https://scikit-learn.org/stable/)
+* [Seaborn](https://seaborn.pydata.org/)
 
-Step 2: Preparing the data by selecting 2 chosen features (sepal.length, sepal.width)
+## Project Description
+K-means is an Unsupervised algorithm and it will find patterns in the data. It will assign each data point randomly to some clusters then it will move the centroid of each cluster.This process will continue until the cluster variation with in the data can’t be reduced any further.
 
-Step 3: Finding the optimal number of K for k_means using the elbow curve: The best value of k appears when the value of 'WCSS' slowly stops decreasing
-( It shows that the calculated number for best k is obviously equal to the the number of different labels )
+The Elbow method and Inertia which is the sum of squared distances of the samples to their closest cluster centre have been used to find the optimal number of clusters. The graph of WCSS is [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/K_Means_Exercise/wcss.png)
 
-Step 4: Fitting the algorithm to the dataset
+Visualization methods have been used to demonstrate the final result of the clustering algorithm. The plot of the clustering result is [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/K_Means_Exercise/Clusters%20of%20flowers.png)
 
-Step 5: Plotting and visulazing to show the result
+
+## Getting Started
+
+1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/))
+2. Dataset is being kept [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/K_Means_Exercise/iris.csv)
+3. Data transformation script is being kept [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/K_Means_Exercise/K_means.py)
