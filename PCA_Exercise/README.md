@@ -1,9 +1,35 @@
-Dimensionality reduction is an important part of machine learning
+# Dimensionality Reduction
 
-Principal Component Analysis algorithm is one of the most common algorithms that can transform the data into a low dimensional space
 
-Dataset: The 'swiss' dataset which has Standardized fertility measure and socio-economic indicators for each of 47 French-speaking provinces of Switzerland at about 1888.
+## Project Intro
+The purpose of this project is to reduce dimensions on the Swiss dataset using Principal Component Analysis algorithm (PCA).
 
-We combine the features using PCA algorithm from the sklearn library.
+### Methods Used
+* Data Preparation
+* Dimensionality Reduction
+* Visualization
 
-We can see that we can reduce the features to 2 components and still have a clear seperation on the data.
+### Technologies
+* [Python](https://www.python.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Matplotlib](https://matplotlib.org/)
+* [Seaborn](https://seaborn.pydata.org/)
+* [Scikit-learn](https://scikit-learn.org/stable/)
+
+## Project Description
+Dimensionality reduction  will reduce the model's complexity and also remove some noise in the data. In this way, it helps to mitigate overfitting.Dimensionality reduction is common in fields that deal with large numbers of observations or large numbers of variables.
+
+Principal Component Analysis algorithm is one of the most common algorithms that can transform the data into a low dimensional space.
+
+The explained variance ratio is shown [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/PCA_Exercise/fig1.png).
+
+By visualizing the results [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/PCA_Exercise/fig2.png) , it can be shown that there is a clear seperation on the data.
+
+## Getting Started
+
+1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/))
+2. The Swiss dataset is stored [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/PCA_Exercise/swiss.csv)
+3. Data processing and transformation scripts are being kept [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/PCA_Exercise/PCA_Exercise.py)
+
+
+
