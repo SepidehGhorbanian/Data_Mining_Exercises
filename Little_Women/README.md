@@ -1,16 +1,33 @@
-Text mining: Sentiment scoring
+# Text Mining
 
-Data: The 'Little Women' book written by Louisa May Alcott
 
-We want to graph the narrative arc of the story
+## Project Intro
+The purpose of this project is to analize the 'Little Women' book written by Louisa May Alcott and graph the narrative arc of the story.
 
-We use the afinn library for sentiment values, nltk library for text functions and re library for regular expressions
+### Methods Used
+* Text Preprocessing
+* Text tokenization
+* Sentiment Analysis
+* Visualization
 
-After adding line numbers, we tokenize the text and collect it in a series.
+### Technologies
+* [Python](https://www.python.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [nltk](https://www.nltk.org/)
+* [Matplotlib](https://matplotlib.org/)
+* [Afinn](https://pypi.org/project/afinn/)
 
-Then we use the afinn to score the sentiments (-5 to +5). We can print the frequency table and see that the words with -5 and +5 values are very few and the words with -2 and +2 values are the most commen. It shows that the writer preferred to use moderate sentiments.
+## Project Description
+ Text mining is the process of transforming unstructured text into a structured format to identify meaningful patterns and new insights. One of the common ways of sentiment analysis in a text is Sentiment Scoring which is a scaling system that reflects the emotional depth of emotions in a piece of text.
+ The AFINN lexicon is a list of English terms rated for valence with an integer between -5 (negative) and +5 (positive).
+ 
+ The change in sentiments throughout the story is shown by plotting the sentiment arc for the text sections [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Little_Women/Sentiment_Arc.png).
 
-We can see the change in sentiments throughout the story by plotting the sentiment arc after making sections of 100 lines.
+## Getting Started
 
-We can see that the little women book has a positive story and it ends happily.
+1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/))
+2. Text is the Little women book that is stored [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Little_Women/Little_Women.txt)
+3. Data processing is being kept [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Little_Women/Little_women.py)
+
+
 
