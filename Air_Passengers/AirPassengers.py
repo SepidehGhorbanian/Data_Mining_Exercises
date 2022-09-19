@@ -6,7 +6,6 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 from matplotlib.dates import DateFormatter
 from statsmodels.tsa.seasonal import seasonal_decompose
 
@@ -14,8 +13,8 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 df = pd.read_csv('AirPassengers.csv' , parse_dates=['Month'] , index_col=['Month'])
 # print(df.head())
 df.rename(columns = {'#Passengers' : 'Passengers'} , inplace = True)
-# print(df.info)
-# print(df.describe)
+print(df.info)
+print(df.describe)
 
 # plotting 
 fig, ax = plt.subplots()
