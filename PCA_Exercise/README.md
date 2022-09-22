@@ -31,9 +31,13 @@ By visualizing the results it can be shown that there is a clear seperation on t
 
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/))
-2. The Swiss dataset is stored [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/PCA_Exercise/swiss.csv)
-3. Data processing and transformation scripts are being kept [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/PCA_Exercise/PCA_Exercise.py)
+
+1. Download and install python on your computer
+2. Make sure to install libraries that have been mentioned before in the 'Technologies' section of the text, if you don't already have them
+3. You can either directly download this repo or clone it (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)) 
+4. The Swiss dataset is stored [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/PCA_Exercise/swiss.csv)
+5. Data processing and transformation scripts are being kept [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/PCA_Exercise/PCA_Exercise.py)
+6. Run the code in python and see the results
 
 
 
