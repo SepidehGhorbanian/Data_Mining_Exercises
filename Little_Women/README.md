@@ -27,9 +27,12 @@ The purpose of this project is to analize the 'Little Women' book written by Lou
 
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/))
-2. Text is the Little women book that is stored [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Little_Women/Little_Women.txt)
-3. Data processing is being kept [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Little_Women/Little_women.py)
+1. Download and install python on your computer
+2. Make sure to install libraries that have been mentioned before in the 'Technologies' section of the text, if you don't already have them
+3. You can either directly download this repo or clone it (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)) 
+4. Text is the Little women book that is stored [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Little_Women/Little_Women.txt)
+5. Data processing is being kept [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Little_Women/Little_women.py)
+6. Run the code in python and see the results
 
 
 
