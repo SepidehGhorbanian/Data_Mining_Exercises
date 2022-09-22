@@ -11,7 +11,7 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 
 # preparing the data
 df = pd.read_csv('AirPassengers.csv' , parse_dates=['Month'] , index_col=['Month'])
-# print(df.head())
+print(df.head())
 df.rename(columns = {'#Passengers' : 'Passengers'} , inplace = True)
 print(df.info)
 print(df.describe)
