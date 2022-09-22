@@ -15,7 +15,7 @@ data = pd.read_csv('iris.csv')
 y = data['variety']
 x=data.drop('variety' , axis = 1 ) #deleting the labels
 x= pd.DataFrame(StandardScaler().fit_transform(x) , columns = x.columns)
-# print(x.head())
+print(x.head())
 
 # Finding the best k
 wcss=[]
