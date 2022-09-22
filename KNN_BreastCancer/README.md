@@ -22,9 +22,14 @@ K_nearest neighbors algorithm (KNN) is one of the simplest forms of classificati
 
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Dataset is from the UCI website [here](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/)
-3. Data processing and transformation scripts are being kept [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/KNN_BreastCancer/BreastCancer_KNN.py)
+1. Download and install python on your computer
+2. Make sure to install libraries that have been mentioned before in the 'Technologies' section of the text, if you don't already have them
+3. You can either directly download this repo or clone it (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)) 
+4. Dataset is from the UCI website [here](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/)
+5. Data processing and transformation scripts are being kept [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/KNN_BreastCancer/BreastCancer_KNN.py)
+6. Run the code in python and see the results
+
+
 
 
 
