@@ -18,10 +18,17 @@ The purpose of this project is to use time series algorithms to find and predict
 ## Project Description
 The Airpassengers dataset contains the number of passengers each month throughout different years from 1949 untill 1960. Decomposition provides a useful abstract model for thinking about time series generally and for better understanding problems during time series analysis and forecasting.
 
-As it is shown in the graph [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Air_Passengers/Dataset_plot.png) the number of passengers is increasing over time but there is a dramatic seasonal shift.
+As it is shown in the graph the number of passengers is increasing over time but there is a dramatic seasonal shift.
+
+![here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Air_Passengers/Dataset_plot.png)
 
 With the use of seasonal decomposition the linear trend going up has been seperated from the seasonal variation.
-Additive model can be found [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Air_Passengers/Plot_additive.png) and multiplicative model can be found [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Air_Passengers/plot_multiplicative.png).
+
+
+Additive model on the left and Multiplicative model on the right:
+
+
+![here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Air_Passengers/Plot_additive.png)   ![here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Air_Passengers/plot_multiplicative.png)
 
 
 ## Getting Started
