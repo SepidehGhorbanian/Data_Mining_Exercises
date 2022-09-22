@@ -18,9 +18,13 @@ The purpose of this project is to cluster the Penguins dataset using the Hierarc
 ## Project Description
 Hierarchical clustering is an unsupervised learning algorithm that groups similar objects into groups called clusters. Agglomerative clustering is a bottom_up approach which means each observation starts in its own cluster, and pairs of clusters are merged as one moves up the hierarchy.
 
-Dendrogram is being used to determine the best number of clusters. That is shown [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Hierarchical_Penguins/Dendrogram%20of%20Penguins.png) 
+Dendrogram is being used to determine the best number of clusters.
 
-Finally, the scatter plot of the result of hierarchical algorithm can be found [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Hierarchical_Penguins/Clusters%20of%20Penguins_Hierarchical.png)
+![here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Hierarchical_Penguins/Dendrogram%20of%20Penguins.png) 
+
+Finally, the scatter plot of the result of hierarchical algorithm:
+
+![here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Hierarchical_Penguins/Clusters%20of%20Penguins_Hierarchical.png)
 
 ## Getting Started
 
