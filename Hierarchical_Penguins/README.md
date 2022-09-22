@@ -28,6 +28,10 @@ Finally, the scatter plot of the result of hierarchical algorithm:
 
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/))
-2. Dataset is the PalmerPenguins that can be easily installed on your computer using the pip install command
-3. Data transformation script is being kept [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Hierarchical_Penguins/Hierarchical_Penguins.py)
+1. Download and install python on your computer
+2. Make sure to install libraries that have been mentioned before in the 'Technologies' section of the text, if you don't already have them
+3. You can either directly download this repo or clone it (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)) 
+4. Dataset is the PalmerPenguins that can be easily installed on your computer using the pip install command
+5. Data transformation script is being kept [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Hierarchical_Penguins/Hierarchical_Penguins.py)
+6. Run the code in python and see the results
+
