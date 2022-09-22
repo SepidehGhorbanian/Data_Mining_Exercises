@@ -21,9 +21,13 @@ Dimensionality reduction  will reduce the model's complexity and also remove som
 
 Principal Component Analysis algorithm is one of the most common algorithms that can transform the data into a low dimensional space.
 
-The explained variance ratio is shown [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/PCA_Exercise/fig1.png).
+The explained variance ratio:
 
-By visualizing the results [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/PCA_Exercise/fig2.png) , it can be shown that there is a clear seperation on the data.
+![here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/PCA_Exercise/fig1.png)
+
+By visualizing the results it can be shown that there is a clear seperation on the data.
+
+![here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/PCA_Exercise/fig2.png)
 
 ## Getting Started
 
