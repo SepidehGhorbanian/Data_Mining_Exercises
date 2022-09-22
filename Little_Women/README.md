@@ -21,7 +21,9 @@ The purpose of this project is to analize the 'Little Women' book written by Lou
  Text mining is the process of transforming unstructured text into a structured format to identify meaningful patterns and new insights. One of the common ways of sentiment analysis in a text is Sentiment Scoring which is a scaling system that reflects the emotional depth of emotions in a piece of text.
  The AFINN lexicon is a list of English terms rated for valence with an integer between -5 (negative) and +5 (positive).
  
- The change in sentiments throughout the story is shown by plotting the sentiment arc for the text sections [here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Little_Women/Sentiment_Arc.png).
+ The change in sentiments throughout the story is shown by plotting the sentiment arc for the text sections:
+ 
+ ![here](https://github.com/Unisepp/Data_Mining_Exercises/blob/main/Little_Women/Sentiment_Arc.png).
 
 ## Getting Started
 
